@@ -14,3 +14,11 @@ function add(): number {
 function sum2 (a: number, b: number) : number {
     return a+b;
 }
+
+// 함수의 옵셔널 파라미터
+function log(a: string, b?: string) {
+
+
+}
+log('hello');
+log('hello','hello2');
