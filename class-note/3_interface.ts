@@ -47,3 +47,20 @@ var obj:StringRegexDictionary = {
     //sth: /abc/,
     cssFile: /\.css$/,
 }
+
+// 인터페이스 확장
+interface Person {
+    name: string;
+    age: number;
+}
+
+interface Developer extends Person{
+
+    language: string;
+}
+
+var car: Developer = {
+    name: 'Derek',
+    age: 32,
+    language: 'js'
+}
